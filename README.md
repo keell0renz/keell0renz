@@ -10,7 +10,7 @@ class Developer(BaseModel):
     platform: str = "Linux"
     code_editor: str = "Cursor"
     shell: str = "zsh"
-    experience: timedelta = timedelta(years=3)
+    experience: timedelta = timedelta(days=365*3)
     tech_stack: list[str] = [
         "FastAPI",
         "TortoiseORM / PostgreSQL",
