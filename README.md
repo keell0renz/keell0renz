@@ -19,14 +19,16 @@ class Developer(BaseModel):
         "Prometheus / Grafana",
         "Render / Neon / MongoDB Atlas",
         "Docker",
-        "Git"
+        "Git",
+        "JavaScript / TypeScript",
+        "Next.js / Vercel"
     ]
 
 
 class Entrepreneur(BaseModel):
     startup: str = "Cognitar"
     positions: list[str] = [
-        "CEO", "CTO", "Lead Developer"
+        "CEO", "CTO"
     ]
 
 
