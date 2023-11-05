@@ -2,7 +2,6 @@
 
 ```python
 from pydantic import BaseModel
-from datetime import timedelta
 
 
 class Developer(BaseModel):
@@ -10,7 +9,7 @@ class Developer(BaseModel):
     platform: str = "Linux"
     code_editor: str = "Cursor"
     shell: str = "zsh"
-    experience: timedelta = timedelta(days=365*3)
+    experience: str = "Since 2020"
     tech_stack: list[str] = [
         "FastAPI",
         "TortoiseORM / PostgreSQL",
@@ -35,7 +34,7 @@ class Entrepreneur(BaseModel):
 class Person(Developer, Entrepreneur):
     full_name: str = "Bohdan Agarkov"
     born: str = "Kyiv, Ukraine"
-    age: int = 17
+    birth_date: str = "23.12.2005"
     university: str = "University of Amsterdam"
     languages: list[tuple[str, str]] = [
         ("Russian", "native"),
