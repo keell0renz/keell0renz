@@ -18,7 +18,7 @@ const Developer = () => {
       "FastAPI", "TortoiseORM", "PostgreSQL", "Beanie", "MongoDB"
       "Pydantic", "Prometheus / Grafana", "Render", "MongoDB Atlas"
       "Docker", "Git", "JavaScript / TypeScript", "Next.js 14", "PrismaORM",
-      "Vercel", "PlanetScale", "Neon", "Zod", "TailwindCSS, "HTML / CSS"
+      "Vercel", "PlanetScale", "Neon", "Zod", "TailwindCSS", "HTML / CSS"
     ]
   };
 
