@@ -5,15 +5,20 @@ import React from 'react';
 
 const Developer = () => {
   const developerInfo = {
-    language: "Python",
+    languages: [
+      "TypeScript",
+      "JavaScript"
+      "Python"
+    ]
     platform: "Linux",
     codeEditor: "Cursor",
     shell: "zsh",
     experience: "Since 2020",
     techStack: [
-      "FastAPI", "TortoiseORM / PostgreSQL", "Beanie / MongoDB",
-      "Pydantic", "Prometheus / Grafana", "Render / Neon / MongoDB Atlas",
-      "Docker", "Git", "JavaScript / TypeScript", "Next.js / Vercel"
+      "FastAPI", "TortoiseORM", "PostgreSQL", "Beanie", "MongoDB"
+      "Pydantic", "Prometheus / Grafana", "Render", "MongoDB Atlas"
+      "Docker", "Git", "JavaScript / TypeScript", "Next.js 14", "PrismaORM",
+      "Vercel", "PlanetScale", "Neon", "Zod", "TailwindCSS, "HTML / CSS"
     ]
   };
 
