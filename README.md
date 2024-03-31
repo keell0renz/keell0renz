@@ -7,32 +7,20 @@ const Developer = () => {
   const developerInfo = {
     languages: [
       "TypeScript",
-      "JavaScript"
-      "Python"
+      "JavaScript",
+      "Python",
+      "SQL"
     ]
     platform: "Linux",
     codeEditor: "Cursor",
     shell: "zsh",
     experience: "Since 2020",
     techStack: [
-      "FastAPI", "TortoiseORM", "PostgreSQL", "Beanie", "MongoDB"
-      "Pydantic", "Prometheus / Grafana", "Render", "MongoDB Atlas"
+      "Python", "FastAPI", "TortoiseORM", "PostgreSQL", "Beanie", "MongoDB"
       "Docker", "Git", "JavaScript / TypeScript", "Next.js 14", "PrismaORM",
-      "Vercel", "PlanetScale", "Neon", "Zod", "TailwindCSS", "HTML / CSS"
+      "Vercel", "PlanetScale", "Neon", "Zod", "TailwindCSS", "HTML / CSS",
+      "LangChain", "LangGraph", "LangSmith", "LangServe", "Pinecone"
     ]
-  };
-
-  return (
-    <div>
-        ...
-    </div>
-  );
-};
-
-const Entrepreneur = () => {
-  const entrepreneurInfo = {
-    startup: "Cognitar",
-    positions: ["CEO", "CTO"]
   };
 
   return (
