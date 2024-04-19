@@ -20,7 +20,7 @@ const Developer = () => {
       "Docker", "Git", "JavaScript / TypeScript", "Next.js 14", "PrismaORM",
       "Vercel", "PlanetScale", "Neon", "Zod", "TailwindCSS", "HTML / CSS",
       "LangChain", "LangGraph", "LangSmith", "LangServe", "Pinecone", "AgentQL",
-      "Vercel AI SDK", "Shadcn/UI", "AceternityUI"
+      "Vercel AI SDK", "Shadcn/UI", "AceternityUI", "Gradio"
     ]
   };
 
