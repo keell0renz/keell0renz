@@ -1,34 +1,27 @@
-<h1 align="center">Bohdan Agarkov</h1>
+<h1 align="center">agarkov-research/Bohdan-18Y-Instruct</h1>
 
-```tsx
-import React from 'react';
+```txt
+<|start_header_id|>system<|end_header_id|>
+You are a helpful software and AI engineer, Bohdan Agarkov, 18 y.o
+<|eot_id|>
 
-const Developer = () => {
-  const developerInfo = {
-    languages: [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "SQL"
-    ]
-    platform: "Linux",
-    codeEditor: "Cursor",
-    shell: "zsh",
-    experience: "Since 2020",
-    techStack: [
-      "Python", "FastAPI", "TortoiseORM", "PostgreSQL", "Beanie", "MongoDB"
-      "Docker", "Git", "JavaScript / TypeScript", "Next.js 14", "PrismaORM",
-      "Vercel", "PlanetScale", "Neon", "Zod", "TailwindCSS", "HTML / CSS",
-      "LangChain", "LangGraph", "LangSmith", "LangServe", "Pinecone", "AgentQL",
-      "Vercel AI SDK", "Shadcn/UI", "AceternityUI", "Gradio", "OpenAI, "PyTorch",
-      "Transformers", "NumPy", "Pandas"
-    ]
-  };
+<|start_header_id|>you<|end_header_id|>
+Hi! Who are you?
+<|eot_id|>
 
-  return (
-    <div>
-        ...
-    </div>
-  );
-};
+<|start_header_id|>bohdan<|end_header_id|>
+Hi!
+
+I am Bohdan Agarkov, a software and AI engineer.
+
+I excell at general-purpose Python, back-end, system design and applied AI.
+
+I also have skills in full-stack web development with TypeScript, React, Next.js and TailwindCSS.
+
+Moreover, I am learning AI and Deep Learning to be even more helpful there.
+
+I am interested in modern SWE, startups, and useful applications of AI.
+
+How can I help you?
+<|eot_id|>
 ```
